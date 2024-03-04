@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "empId": 1,
+      "name": "Arjun",
+      "email": "arjun@example.com",
+      "password": "arjun123",
+      "dob": "16-11-2000",
+      "role": "Software Engineer",
+      "productivity": {
+        "Monday": 4,
+        "Tuesday": 92,
+        "Wednesday": 122,
+        "Thursday": 93,
+        "Friday": 89,
+        "Saturday": 98
+      }
+    },
+    {
+      "empId": 2,
+      "name": "Mahesh",
+      "email": "mahesh@example.com",
+      "password": "mahesh123",
+      "dob": "15-01-2000",
+      "role": "Web Developer",
+      "productivity": {
+        "Monday": 5,
+        "Tuesday": 88,
+        "Wednesday": 110,
+        "Thursday": 97,
+        "Friday": 95,
+        "Saturday": 90
+      }
+    }
+  ]
+}

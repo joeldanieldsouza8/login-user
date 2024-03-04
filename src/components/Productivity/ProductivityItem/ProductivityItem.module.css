@@ -1,0 +1,60 @@
+.productivity-item {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.productivity-item h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.productivity-detail {
+  margin-bottom: 10px;
+}
+
+.productivity-detail label {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.productivity-detail progress {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.productivity-detail p {
+  color: #ffffff;
+  text-align: right;
+}
+
+/* If productivity exceeds 100%, we could highlight it in a different color */
+.productivity-detail .over-100 {
+  color: #f44336; /* Red color for over 100% */
+}
+
+/* Responsive adjustments */
+@media (max-width: 412px) {
+  .productivity-list {
+    padding: 10px;
+  }
+
+  .productivity-item {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .productivity-list {
+    padding: 5px;
+  }
+
+  .productivity-item {
+    padding: 8px;
+  }
+}

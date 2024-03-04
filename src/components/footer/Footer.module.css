@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #000e09; /* You can adjust the background color to match your theme */
+  text-align: center; /* Centers the links in the footer */
+  border-top-left-radius: 28px; /* Assuming the footer has rounded corners at the top */
+  border-top-right-radius: 28px;
+  display: flex;
+  justify-content: center; /* Centers the child elements (links) */
+  gap: 30px; /* Adds space between the links */
+}
+
+.footer a {
+  color: white; /* Sets the text color of the links */
+  text-decoration: none; /* Removes underline from links */
+  font-size: 16px; /* Sets the size of the link text */
+  padding: 8px 16px; /* Adds padding around the link text for better touch targets */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer a:hover {
+  color: #00a300; /* Changes link color on hover, adjust as needed */
+}

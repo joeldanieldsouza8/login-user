@@ -1,0 +1,14 @@
+.user-list-container {
+  background: transparent linear-gradient(180deg, #000000 0%, #000e09 100%);
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust the gap as needed */
+}
