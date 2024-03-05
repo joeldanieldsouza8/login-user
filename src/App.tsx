@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Login from "./components/login/Login";
-import Home from "./components/home/Home";
+import Login from "./components/Login/Login";
+import Home from "./components/Home/Home";
 import UserList from "./components/Users/UserList/UserList";
 import useAuth from "./hooks/useAuth";
 import NoPage from "./components/NoPage/NoPage";

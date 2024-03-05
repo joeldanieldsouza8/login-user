@@ -1,3 +1,4 @@
+import { User } from "@/types/userType";
 import useAuth from "../../../hooks/useAuth";
 import useUsers from "../../../hooks/useUsers";
 import ProductivityItem from "../ProductivityItem/ProductivityItem";
@@ -11,8 +12,8 @@ function ProductivityList() {
   const { usersState } = useUsers();
   const { users } = usersState;
 
-  const currentUser = users.find(
-    (user) => user.email === authenticatedUser?.email
+  const currentUser: User | undefined = users.find(
+    (user: User) => user.email === authenticatedUser?.email
   );
 
   return (
